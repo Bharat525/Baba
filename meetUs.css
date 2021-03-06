@@ -1,0 +1,253 @@
+
+.meetUs h2{
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 80%;
+    width:30%;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    animation-name: hvr-wobble-to-top-right;
+}
+
+.card .new{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    object-fit: contain;
+   
+}
+
+.new img{
+    background-color: aqua;
+}
+
+
+
+
+/* flex-direction: column;
+    display: flex;
+    width: 90%;
+    font-size: 0.7rem;
+    align-items: center; */
+
+
+
+
+.meetus img{
+    margin: auto;
+    width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+
+}
+
+
+/* .Text{
+    display: flex;
+    flex-direction: column;
+} */
+
+.Text p{
+    color: grey;
+    padding: 5px;
+} 
+
+
+
+
+.card p{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+
+}
+
+.card span{
+    text-align: center;
+    color: grey;
+    padding: 10px;
+}
+
+
+.main-div .icon{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    align-items: center;
+    border: 2px solid;
+}
+
+
+.icon i:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+
+
+.icon:first-child i :hover{
+    background-color: blue;
+
+}
+
+
+.text :hover{
+    color: blue;
+}
+
+
+
+
+.card :hover{
+    -webkit-animation-name: hvr-wobble-to-top-right;
+  animation-name: hvr-wobble-to-top-right;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+
+
+/* Wobble To Top Right */
+@-webkit-keyframes hvr-wobble-to-top-right {
+    16.65% {
+      -webkit-transform: translate(8px, -8px);
+      transform: translate(8px, -8px);
+    }
+    33.3% {
+      -webkit-transform: translate(-6px, 6px);
+      transform: translate(-6px, 6px);
+    }
+    49.95% {
+      -webkit-transform: translate(4px, -4px);
+      transform: translate(4px, -4px);
+    }
+    66.6% {
+      -webkit-transform: translate(-2px, 2px);
+      transform: translate(-2px, 2px);
+    }
+    83.25% {
+      -webkit-transform: translate(1px, -1px);
+      transform: translate(1px, -1px);
+    }
+    100% {
+      -webkit-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+  }
+  
+
+
+
+
+
+
+.main-div{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+@media screen and (max-width :720px){
+    section .meet-Container{
+        /* height: 250px;
+        width: auto; */
+        flex-direction: column;
+        animation: cardAni 2s ease-in;
+    }
+
+    nav{
+        width: 100%;
+        position: fixed;
+        background-color: rgb(146 146 146);
+        height: 10vh;
+        z-index: 1;
+    }
+
+    .main-div{
+    flex-direction: column;
+    }
+
+    .card{
+        width: 100%;
+        margin: auto;
+    }
+
+    secton button{
+        position: static;
+   
+    }
+
+    
+    .meetUs h2{
+        font-size: 1.4rem;
+        top: auto;
+    }
+
+    section .card-meet{
+        width: auto;
+    }
+
+  
+
+    
+
+    .Text{
+        font-size: 0.7rem;
+        
+    }
+
+
+
+
+
+/* ANimation Section */
+
+@keyframes opening{
+    from{
+
+        opacity: 0;
+
+    }
+    to{
+        opacity: 5;
+
+    }
+}
+
+
+@keyframes cardAni{
+    from{
+
+        transform: translateY(20%) rotatex(-90deg) rotateY(-90deg);
+    }
+    to{
+        transform: translateY(0%);
+        
+    }
+}
+

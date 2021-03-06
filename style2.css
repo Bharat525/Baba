@@ -1,0 +1,123 @@
+
+section h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+   
+
+}
+
+section #main-2{
+    background-color: #fff;
+}
+
+
+.h2-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.h2-div img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+/* flex-card */
+.main-container{
+    width: 80%;
+    margin: auto;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+
+.Card{
+    flex-direction: column;
+    display: flex;
+    height: 450px;
+    margin: 10px;
+}
+
+
+.Card img{
+    height: 450px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+section .btn{
+    padding: 10px 0;
+    background-color: #B75B5B;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+
+}
+
+
+.event-div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+}
+
+
+
+.event-div img{
+    width: 110%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
+
+.main-container img:hover{
+opacity: 0.5;
+}
+
+
+
+    
+
+
+
+
+@media screen and (max-width :720px){
+
+    .main-container{
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        margin: auto;
+    }
+    section h2{
+        font-size: 1.2rem;
+    }
+
+    .Card img{
+        height: 350px;
+    }
+
+}

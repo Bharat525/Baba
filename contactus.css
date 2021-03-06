@@ -1,0 +1,102 @@
+.main-con1{
+display: flex;
+height: 70vh;
+justify-content: space-evenly;
+align-items: center;
+
+
+
+}
+
+.text-input{
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+form{
+  box-shadow: 0 20px 20px rgba(104, 103, 103, 0.2), 0 0 50px rgba(0, 0, 0, 0.2);
+  position: relative;
+  height: 80%;
+  background-color: rgb(255, 255, 255);
+  width: 40%;
+  top: 10px;
+  border-radius: 10px;
+}
+
+form .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    display: inline-block;
+  }
+
+  #textarea{
+    width: 100%;
+  
+  }
+
+
+
+
+
+
+
+
+  
+
+
+
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+
+  /* .btn-div{
+      height: 20px;
+  }
+   */
+ 
+  .btnSubmit  {
+    background-color: dodgerblue !Important;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+
+  
+
+  .text-input .fa-paper-plane{
+    position: relative;
+    left: 12px;
+}
+  
+
+form h3{
+  margin: 10px;
+}
+
+/* 
+@media only screen and {max-width: 640px}{
+    form {
+    width: auto;
+  }
+}  */
+
+
+
+
+
+
+
+  
+  
+
+

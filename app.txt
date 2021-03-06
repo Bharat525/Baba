@@ -1,0 +1,22 @@
+// const links = nav.querySelectorAll("a")
+
+// links.forEach(link => {
+//     link.addEventListener("click", () =>{
+        
+//     })
+// })
+
+
+
+// const navLinks = document.getElementById('ourLinks')
+// const burger = document.getElementById('humBurger-btn') ;
+
+// burger.addEventListener( 'click',run);
+
+// function run(){
+
+//     if(navLinks.style.display === 'block'){
+//         console.log('hey');
+
+//     }
+// }

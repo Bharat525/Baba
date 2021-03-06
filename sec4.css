@@ -1,0 +1,109 @@
+section .Pillow{
+    margin-top:20px ;
+    /* text-align: center; */
+    position: relative;
+    padding: 20px 60px;
+    left: 42%;
+    background: white;
+
+}
+
+section .Card-product2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+.Card-product2 img{
+    height: 400px;
+    animation: pillow 2s ease-in-out  ;
+
+}
+
+
+
+.text2{
+    background-color: #e7e2e2;
+    width: 50%;
+    position: relative;
+    letter-spacing: 4px;
+    line-height: 36px;
+    height: 14rem;
+    
+
+}
+
+section .frame{
+    position: relative;
+    padding: 20px 60px;
+    left: 42%;
+    background: white;
+}
+
+
+@media screen and (max-width :720px){
+    section .Card-product2{
+        flex-direction: column;
+    }
+
+    .text2{
+        letter-spacing: 0px;
+        width: 94%;
+        margin: auto;
+    }
+
+    section .frame{
+        position: relative;
+    left: 80px;
+    top: 6rem;
+    }
+
+    section .Pillow{
+        position: relative;
+        left: 80px ; 
+        
+
+    }
+
+    section .Event{
+        position: relative;
+        left: 0px;
+        width: 100%;
+        
+
+
+
+    }
+
+    section .MugBtn{
+        position: relative;
+        left: 80px;
+    }
+    
+    
+
+    section .Tshirt{
+        width: 80%;
+        left: 26px;
+    }
+}
+
+
+
+@keyframes pillow{
+    
+    from{
+
+        transform:translateY(10%) rotatex(-50deg) rotateY(90deg);
+    }
+
+    to{
+        transform: translateY(0%);
+
+    }
+
+} 

@@ -1,0 +1,66 @@
+section .galary{
+    border: 2px solid black;
+}
+
+.mySlides {display:none;}
+
+.container{
+    position: relative; 
+    margin: auto;
+    width: 70%;
+
+    box-shadow: 5px 10px 20px;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+
+ .btn1{
+    width: 100px;
+    left: 5rem;
+    position: relative;
+    bottom: 19rem;
+    font-size: 2rem;  
+}
+
+.btn2{
+    
+    position: relative;
+    bottom: 18rem;
+    font-size: 2rem;
+    left: 80rem;
+
+}
+
+.container img{
+    width: 100%;
+}
+
+
+@media screen and (max-width :720px){
+  
+     .btn2{
+        bottom: 105px;
+        left: 14rem;
+        font-size: 0.9rem;
+     }
+
+     .h2-div img{
+     
+        width: 25px;
+        height: 25px;
+     }
+
+     .btn1{
+        left: 11px;
+        bottom: 6rem;
+        font-size: 0.9rem;
+     }
+
+} 
+
+
+
